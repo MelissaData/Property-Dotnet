@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 [Pp]roperty/[Bb]uild
-
-[Pp]roperty/[Pp]roperties
+[Pp]roperty/[Bb]in
+[Pp]roperty/[Oo]bj
 
 # User-specific files
 *.rsuser

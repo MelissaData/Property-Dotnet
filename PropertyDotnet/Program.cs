@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Property
+namespace PropertyDotnet
 {
   static class Program
   {
@@ -71,6 +71,7 @@ namespace Property
           Console.WriteLine(APICall.Substring(i, APICall.Length - i));
         }
       }
+
       Console.WriteLine("\nAPI Response:");
       Console.WriteLine(prettyResponse);
     }
