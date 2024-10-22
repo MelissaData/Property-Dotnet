@@ -52,8 +52,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/Property-Dotnet
-$ cd Property-Dotnet
+git clone https://github.com/MelissaData/Property-Dotnet
+cd Property-Dotnet
 ```
 
 ## Windows
@@ -96,15 +96,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ .\PropertyDotnet.ps1
+	.\PropertyDotnet.ps1
 	```
 
 - Command Line 
 
 	You can pass a FIPS code, APN code, and license string into `-fips`, `-apn`, and `-license` parameters respectively to test the Cloud API. For example:
 	```
-    $ .\PropertyDotnet.ps1 -fips "06059" -apn "80505208"
-    $ .\PropertyDotnet.ps1 -fips "06059" -apn "80505208" -license "<your_license_string>"
+    .\PropertyDotnet.ps1 -fips "06059" -apn "80505208"
+    .\PropertyDotnet.ps1 -fips "06059" -apn "80505208" -license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for command line mode:
@@ -156,15 +156,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ ./PropertyDotnet.sh
+	./PropertyDotnet.sh
 	```
 
 - Command Line 
 
 	You can pass a FIPS code, APN code, and license string into `--fips`, `--apn`, and `--license` parameters respectively to test the Cloud API. For example:
 	```
-    $ ./PropertyDotnet.sh --fips "06059" --apn "80505208"
-    $ ./PropertyDotnet.sh --fips "06059" --apn "80505208" --license "<your_license_string>"
+    ./PropertyDotnet.sh --fips "06059" --apn "80505208"
+    ./PropertyDotnet.sh --fips "06059" --apn "80505208" --license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for command line mode:
